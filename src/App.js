@@ -1,10 +1,10 @@
+import React from "react";
 import Heading from "./components/Heading";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
-import "./css/App.css";
-import React from 'react';
 
-function App() {
+const App = () => {
+
   return (
     <div>
       <Heading />
@@ -12,6 +12,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
